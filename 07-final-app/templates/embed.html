@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv='content-type' content='text/html; charset=utf-8' />
+
+    <title>Embed Demo</title>
+
+    {{ plot_resources|indent(4)|safe }}
+
+    {{ plot_script|indent(4)|safe }}
+
+  </head>
+  <body>
+    <! A simple form for changing the graph>
+    <p> Select your settings: </p>
+    <form name="color_button" method='GET'>
+        Team:
+        <select name="selected_team">
+          {% for t in teams %}
+          <option {% if t == selected_team %}selected="selected"{% endif %} value="{{t}}">{{t}}</option>
+          {% endfor %}
+        </select>
+        <select name="selected_year">
+          {% for y in years %}
+          <option {% if y == selected_year %}selected="selected"{% endif %} value="{{y}}">{{y}}</option>
+          {% endfor %}
+        </select>
+        <button type="submit">Submit</button>
+    </form>
+    {{ plot_div|indent(4)|safe }}
+  </body>
+</html>
