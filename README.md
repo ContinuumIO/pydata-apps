@@ -2,6 +2,8 @@
 
 This tutorial presents how to build data driven application using Blaze and Bokeh.
 
+Short link to this app: [http://git.io/pydata-apps](http://git.io/pydata-apps)
+
 ## Requirements
 
 - Download and install the [Anaconda Python Distribution](http://continuum.io/downloads)
