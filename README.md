@@ -29,6 +29,6 @@ For those want to just follow a static notebook (not all interactive elements wi
 
 ## Contributors
 
-Andy R. Terrel
-Christine Doig
-Matthew Rocklin
+- Andy R. Terrel
+- Christine Doig
+- Matthew Rocklin
