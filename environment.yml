@@ -1,0 +1,8 @@
+name: pydata_apps
+dependencies:
+  - blaze
+  - bokeh
+  - pandas
+  - boto
+  - ipython-notebook
+  - flask
