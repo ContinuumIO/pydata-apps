@@ -11,7 +11,7 @@ This tutorial presents how to build data driven application using Blaze and Boke
   git clone https://github.com/ContinuumIO/pydata-apps.git
   ```
 
-- Each tutorial notebook has a slightly different set of requirements. To install all the requirements try:
+- Each tutorial notebook has a slightly different set of requirements. To install all the requirements from the command line try:
   
   ```
   conda update conda
@@ -19,10 +19,10 @@ This tutorial presents how to build data driven application using Blaze and Boke
   source activate pydata_apps
   ```
 
-- Then to start working with the IPython notebooks, start as below. For each embedded app, instructions for running exist in the Python file. 
+- Then to start working with the IPython notebooks, from the command line start as below. For each embedded app, instructions for running exist in the Python file. 
 
   ```
-  ipython notebooks
+  ipython notebook
   ```
   
   
