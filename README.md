@@ -11,7 +11,7 @@ This tutorial presents how to build data driven application using Blaze and Boke
   git clone https://github.com/ContinuumIO/pydata-apps.git
   ```
 
-- Each tutorial has a slightly different set of requirements. To download all the requirements try:
+- Each tutorial notebook has a slightly different set of requirements. To install all the requirements try:
   
   ```
   conda update conda
