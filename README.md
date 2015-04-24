@@ -16,7 +16,16 @@ This tutorial presents how to build data driven application using Blaze and Boke
   ```
   conda update conda
   conda env create
+  source activate pydata_apps
   ```
+
+- Then to start working with the IPython notebooks, start as below. For each embedded app, instructions for running exist in the Python file. 
+
+  ```
+  ipython notebooks
+  ```
+  
+  
 
 ## Static notebooks
 
