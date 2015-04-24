@@ -3,7 +3,7 @@ import flask
 from bokeh.embed import components
 from bokeh.resources import INLINE
 from bokeh.templates import RESOURCES
-from bokeh.utils import encode_utf8
+from bokeh.util.string import encode_utf8
 
 from bokeh.models import ColumnDataSource
 import bokeh.plotting as plt
